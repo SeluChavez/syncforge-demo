@@ -1,0 +1,17 @@
+[server]
+# Public demo limit (MB per uploaded file). app.py also limits rows and XLSX unpacked size.
+maxUploadSize = 2
+# For local runs, bind to this computer only:
+#   streamlit run app.py --server.address localhost
+# (not set here, because Streamlit Community Cloud must be able to reach the app)
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#1F4E79"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F6F9"
+textColor = "#1B1F24"
+font = "sans serif"

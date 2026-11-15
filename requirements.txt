@@ -1,0 +1,2 @@
+# Only needed for the SyncForge demo UI (app.py). feedclean.py uses the standard library only.
+streamlit==1.66.1

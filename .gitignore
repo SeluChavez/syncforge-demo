@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+output/
+devtest/
+# Real store exports and import evidence stay local
+evidence/
+products_export.csv
+Export_*.xlsx
+Import_Result_*.zip
+.streamlit/secrets.toml
